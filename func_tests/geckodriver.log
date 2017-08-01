@@ -1,0 +1,99 @@
+1501496626723	geckodriver	INFO	Listening on 127.0.0.1:60823
+1501496627949	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1501496628948	Marionette	INFO	Listening on port 35697
+1501496629039	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501496631276	Marionette	INFO	New connections will no longer be accepted
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4099] WARNING: pipe error (3): Connection reset by peer: file /tmp/buildd/firefox-esr-52.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 4099] ###!!! ABORT: Aborting on channel error.: file /tmp/buildd/firefox-esr-52.2.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 4099] ###!!! ABORT: Aborting on channel error.: file /tmp/buildd/firefox-esr-52.2.0esr/ipc/glue/MessageChannel.cpp, line 2152
+1501496980111	geckodriver	INFO	Listening on 127.0.0.1:60723
+1501496981294	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1501496982446	Marionette	INFO	Listening on port 34257
+1501496982543	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501496984233	Marionette	INFO	New connections will no longer be accepted
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xE20003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4306] WARNING: pipe error (3): Connection reset by peer: file /tmp/buildd/firefox-esr-52.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 4306] ###!!! ABORT: Aborting on channel error.: file /tmp/buildd/firefox-esr-52.2.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 4306] ###!!! ABORT: Aborting on channel error.: file /tmp/buildd/firefox-esr-52.2.0esr/ipc/glue/MessageChannel.cpp, line 2152
+1501505113257	geckodriver	INFO	Listening on 127.0.0.1:36863
+1501505114700	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1501505116968	Marionette	INFO	Listening on port 42909
+1501505117095	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501505118995	Marionette	INFO	New connections will no longer be accepted
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6162] WARNING: pipe error (3): Connection reset by peer: file /tmp/buildd/firefox-esr-52.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 6162] ###!!! ABORT: Aborting on channel error.: file /tmp/buildd/firefox-esr-52.2.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 6162] ###!!! ABORT: Aborting on channel error.: file /tmp/buildd/firefox-esr-52.2.0esr/ipc/glue/MessageChannel.cpp, line 2152
+1501505375385	geckodriver	INFO	Listening on 127.0.0.1:44399
+1501505376597	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1501505377635	Marionette	INFO	Listening on port 44681
+1501505377736	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501505379619	Marionette	INFO	New connections will no longer be accepted
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6278] WARNING: pipe error (3): Connection reset by peer: file /tmp/buildd/firefox-esr-52.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 6278] ###!!! ABORT: Aborting on channel error.: file /tmp/buildd/firefox-esr-52.2.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 6278] ###!!! ABORT: Aborting on channel error.: file /tmp/buildd/firefox-esr-52.2.0esr/ipc/glue/MessageChannel.cpp, line 2152
+1501505481505	geckodriver	INFO	Listening on 127.0.0.1:44899
+1501505482779	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1501505483872	Marionette	INFO	Listening on port 45763
+1501505483968	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501505485907	Marionette	INFO	New connections will no longer be accepted
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xE20003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6446] WARNING: pipe error (3): Connection reset by peer: file /tmp/buildd/firefox-esr-52.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 6446] ###!!! ABORT: Aborting on channel error.: file /tmp/buildd/firefox-esr-52.2.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 6446] ###!!! ABORT: Aborting on channel error.: file /tmp/buildd/firefox-esr-52.2.0esr/ipc/glue/MessageChannel.cpp, line 2152
+1501570751486	geckodriver	INFO	Listening on 127.0.0.1:36757
+1501570753533	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1501570755894	Marionette	INFO	Listening on port 33037
+1501570756216	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501570759320	Marionette	INFO	New connections will no longer be accepted
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xE20003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 2341] WARNING: pipe error (3): Connection reset by peer: file /tmp/buildd/firefox-esr-52.2.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 2341] ###!!! ABORT: Aborting on channel error.: file /tmp/buildd/firefox-esr-52.2.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 2341] ###!!! ABORT: Aborting on channel error.: file /tmp/buildd/firefox-esr-52.2.0esr/ipc/glue/MessageChannel.cpp, line 2152
