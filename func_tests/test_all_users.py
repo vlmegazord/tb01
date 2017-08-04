@@ -3,6 +3,9 @@ from selenium import webdriver
 from django.core.urlresolvers import reverse
 # from django.contrib.staticfiles.testing import LiveServerTestCase
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
+from datetime import date
+from django.utils import formats
+from django.utils.translation import activate
 
 # class HomeNewVisitorTest(LiveServerTestCase):
 class HomeNewVisitorTest(StaticLiveServerTestCase):
@@ -31,6 +34,30 @@ class HomeNewVisitorTest(StaticLiveServerTestCase):
         self.assertNotIn("Not Found", self.browser.title)
         self.browser.get(self.live_server_url + "/humans.txt")
         self.assertNotIn("Not Found", self.browser.title)
+
+    def test_internationalization(self):
+        texts = [( 'en', "Welcome to TaskBuster"), ('ru', "Добро пожаловать в ТаскБастер!")]
+        for lang, h1_text in texts:
+            activate(lang)
+            self.browser.get(self.get_full_url("home"))
+            h1 = self.browser.find_element_by_tag_name("h1")
+            self.assertEqual(h1.text, h1_text)
+
+
+
+    def test_localization(self):
+        today = date.today()
+        print("Today:", str(today))
+        for lang in ['en', 'ru']:
+            activate(lang)
+            print("Language activated:", lang)
+            self.browser.get(self.get_full_url('home'))
+            local_date = self.browser.find_element_by_id("local-date")
+            print("LOcal date:", str(local_date))
+            non_local_date = self.browser.find_element_by_id("non-local-date")
+            print("Non-lOcal date:", str(non_local_date))
+            self.assertEqual(formats.date_format(today, use_l10n=True), local_date.text)
+            self.assertEqual(today.strftime('%Y-%m-%d'), non_local_date.text)
 
 
 
