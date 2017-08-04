@@ -5,3 +5,5 @@ __pycache__
 TaskBuster.sublime-workspacediff.txt
 geckodriver.log
 *.swp
+htmlcov
+.coverage

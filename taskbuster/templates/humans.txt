@@ -3,13 +3,25 @@
 
 # TEAM
 
+    Vassily L -- Developer -- twitter 2 be created
     <name> -- <role> -- <twitter>
 
 # THANKS
 
-    <name>
+    To every source where I learned the technologies used in this project
+    HarveyMuddX at edx.org for CS For All
+    MITx at edx.org for MITx6.00.1x/2x at edx.org.
+    Jose Portilla for the online Django course at udemy.org
+    Django Foundation for the Django Framework, and the extraordinary documentation including the official tutorial.
+    Django Girls for their tutorial.
+    Marina Mele for the fantastic TaskBuster Django tutorial.
+    Harry Percival at Obey The Testing Goat
+    ...and others
+
+
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    jQuery, Modernizr
+    Python, Django,
+    HTML5, CSS3, Bootstrap
+    jQuery, Modernizr, TinyMCE
