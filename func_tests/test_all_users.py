@@ -18,6 +18,9 @@ class HomeNewVisitorTest(StaticLiveServerTestCase):
         self.browser.quit()
 
     def get_full_url(self, namespace):
+        print("Live URL:", str(self.live_server_url))
+        print("Namespace:", str(namespace))
+        print("Reversed ns:", str(reverse(namespace)))
         return self.live_server_url + reverse(namespace)
 
     def test_home_title(self):
@@ -58,6 +61,15 @@ class HomeNewVisitorTest(StaticLiveServerTestCase):
             print("Non-lOcal date:", str(non_local_date))
             self.assertEqual(formats.date_format(today, use_l10n=True), local_date.text)
             self.assertEqual(today.strftime('%Y-%m-%d'), non_local_date.text)
+
+    def test_tz(self):
+        self.browser.get(self.get_full_url('home'))
+        tz = self.browser.find_element_by_id('time-tz')
+        utc = self.browser.find_element_by_id('time-utc')
+        ny = self.browser.find_element_by_id('time-ny')
+        self.assertNotEqual(tz, utc)
+        self.assertNotIn(ny, [tz, utc])
+
 
 
 
