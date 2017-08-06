@@ -16,11 +16,13 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.conf.urls.i18n import i18n_patterns
 from django.contrib import admin
-from .views import home, home_files
+from .views import home, home_files, robots, humans
 
 urlpatterns = [
 
     url(r'^(?P<filename>(robots.txt)!(humans.txt))$', home_files, name='home_files'),
+    url(r'^robots.txt$', robots, name='robots'),
+    url(r'^humans.txt$', humans, name='humans'),
 
 ]
 urlpatterns += i18n_patterns(
